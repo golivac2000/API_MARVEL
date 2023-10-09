@@ -16,7 +16,7 @@ app.use(express.json())
 
 // rutas backend
 
-app.get('/api/heroes', async (req, res)=> {
+app.get('/api/heroes', async (req   , res)=> {
     try{
 
     }catch (error){
