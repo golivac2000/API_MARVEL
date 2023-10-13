@@ -6,12 +6,15 @@ import { HeroesPagina } from '../paginas/HeroesPagina'
 import { HeroePagina } from '../paginas/HeroePagina'
 import { AcercaDePagina } from '../paginas/AcercaDePagina'
 import { NotFoundPagina } from '../paginas/NotFoundPagina'
+import { LayoutComponent } from '../componentes/LayoutComponent'
 
 
 
 export const AppRouter = () => {
   return (
     <>   
+
+        <LayoutComponent/>
         <Routes>
             <Route index path= '/' element={<HomePagina/>} />
             <Route  path= '/api/heroes' element={<HeroesPagina/>} />
