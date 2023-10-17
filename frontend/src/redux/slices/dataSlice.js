@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const estadoInicial={
-    indicePaginacion:1,
+    indicePaginacion:2,
 
 }
 

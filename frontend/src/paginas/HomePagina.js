@@ -17,7 +17,7 @@ export const HomePagina = () => {
         <Paper sx={{padding:2, }}>
           <Stack spacing={2} direction='column' alignItems='center'   >
             <Avatar alt='Cheto' sx={{width:56, height:56, color:'black', backgroundColor: 'White'}}   />
-            <Typography variant='h4' aling='center'>  Cheto</Typography>
+            <Typography variant='h4' aling='center'>  AAAAAAAAAAAAAAAAAAAAAAAAAAA</Typography>
             <Typography variant='h6' aling='center'>  Descripción</Typography>
             
           </Stack>
