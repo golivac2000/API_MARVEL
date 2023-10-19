@@ -38,7 +38,7 @@ export const NavbarComponent = ({ toggleDrawer }) => {
 
     return (
         <Box sx={{ flexGrow: 1, mb: 10 }}>
-            <AppBar position="static">
+            <AppBar position="fixed">
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <FactCheckIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />

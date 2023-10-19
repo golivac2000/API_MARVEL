@@ -17,23 +17,19 @@ export const HomePagina = () => {
         <Paper sx={{padding:2, }}>
           <Stack spacing={2} direction='column' alignItems='center'   >
             <Avatar alt='Cheto' sx={{width:56, height:56, color:'black', backgroundColor: 'White'}}   />
-            <Typography variant='h4' aling='center'>  AAAAAAAAAAAAAAAAAAAAAAAAAAA</Typography>
-            <Typography variant='h6' aling='center'>  Descripción</Typography>
+            <Typography variant='h4' aling='center'>  GRUPO 2</Typography>
+            <Typography variant='h6' aling='center'>  API MARVEL</Typography>
             
           </Stack>
           <Paper elevation={4}>
             <Stack direction='row' spacing={2} alignItems='center' justifyContent='center' sx={{margin:2}}>
-              <IconButton>
-              <FacebookIcon color='secondary'/> 
+              
+
+              <IconButton href="https://github.com/golivac2000/API_MARVEL.git">
+                <GitHubIcon color="secondary" />
               </IconButton>
 
-              <IconButton>
-              <GitHubIcon color='secondary' /> 
-              </IconButton>
-
-              <IconButton>
-              <LinkedInIcon color='secondary' /> 
-              </IconButton>
+             
             </Stack>
           </Paper>
         </Paper>
