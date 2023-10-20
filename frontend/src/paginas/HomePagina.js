@@ -48,7 +48,7 @@ export const HomePagina = () => {
             <Stack direction='row' spacing={2} alignItems='center' justifyContent='center' sx={{margin:2}}>
               
 
-              <IconButton href="https://github.com/golivac2000/API_MARVEL.git">
+              <IconButton href="https://github.com/golivac2000/API_MARVEL.git" target="_blank" rel='nooopener noreferrer'>
                 <GitHubIcon color="secondary" />
               </IconButton>
 

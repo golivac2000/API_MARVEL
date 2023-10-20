@@ -26,7 +26,7 @@ const [integrantesList, setIntegrantes]= useState(integrantes)
        component="nav"
        subheader={
 
-         <ListSubheader component="div">
+         <ListSubheader component="div" >
 
           Integrantes
          </ListSubheader>
