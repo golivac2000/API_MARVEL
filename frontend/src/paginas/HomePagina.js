@@ -13,6 +13,29 @@ export const HomePagina = () => {
   return (
     <Grid container justifyContent='center' >
    
+        <Grid  xs={12} sm={12} lg={12} xl={12} justifyContent='center' alignItems='center' display='flex'>
+          <Paper elevation={4} sx={{margin:4,padding:2, maxWidth:800}} >
+
+          <Typography variant='h6' aling='center' >
+          
+                En esta aplicación podrás descubrir cientos de personajes del universo Marvel.
+          </Typography>
+
+          <Typography variant='h6' aling='center' >
+          
+          Así a su vez podrás ver a detalle una descripción de cada uno. Toda la información es traida de la API de Marvel en su página oficial: 
+    </Typography>
+
+          <a  style={{color: 'white', textDecoration: 'none'}} href="https://developer.marvel.com/" target="_blank"   rel='nooopener noreferrer'>
+          Sitio web de Marvel Developer
+        </a>
+
+
+
+          </Paper>
+        </Grid>
+
+
         <Grid className='bordes' sx={{margin:2}} xs={12} sm={6} md={6} lg={2} justifyContent='center' alignItems='center'>
         <Paper sx={{padding:2, }}>
           <Stack spacing={2} direction='column' alignItems='center'   >
@@ -36,7 +59,7 @@ export const HomePagina = () => {
         </Grid>
 
         <Grid display='flex' justifyContent='center' alignItems='center'   xs={12} sm={12} lg={12} xl={12}>
-          <Paper className='bordes' sx={{padding:5,width:300}}>
+          <Paper className='bordes' sx={{padding:5,width:300,margin:2}}>
           <img src={MarvelLogo} style={{maxWidth: '100%', height: 'auto'}} />
           </Paper>
           

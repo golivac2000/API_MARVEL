@@ -15,7 +15,7 @@ export const CardComponent = ({infoHeroe}) => {
             <CardMedia  height={220} component='img' image={`${infoHeroe.thumbnail.path}.${infoHeroe.thumbnail.extension}`}    />
             <CardContent> 
                 <Typography component='div' noWrap > {infoHeroe.name} </Typography>
-                <Button size='samll' variant='contained' color='primary' component={RouterLink} to={`/api/heroe/${id}`}> Mas detalles</Button>
+                <Button size='small' variant='contained' color='warning' component={RouterLink} to={`/api/heroe/${id}`}> Mas detalles</Button>
             </CardContent>
 
         </Card>

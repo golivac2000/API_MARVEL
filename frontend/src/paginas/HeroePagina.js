@@ -40,7 +40,7 @@ export const HeroePagina = () => {
   return (
     <Grid container>
       <Grid xs={12} sm={12} lg={7} display='flex' justifyContent='center' sx={{ padding: 2 }}>
-        <img className='bordes' style={{ maxWidth: '100', height: 'auto' }} src={`${thumbnail.path}.${thumbnail.extension}`} />
+        <img className='bordes' style={{ maxWidth: '100%', height: 'auto' }} src={`${thumbnail.path}.${thumbnail.extension}`} />
       </Grid>
 
       <Grid xs={12} sm={12} lg={5} display='flex' justifyContent='center' alignItems='center'>

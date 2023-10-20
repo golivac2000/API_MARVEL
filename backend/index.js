@@ -22,6 +22,11 @@ const privateKey = process.env.PRIVATE_KEY
 const hashString = timeStamp + privateKey+ publicKey
 
 const md5Hash = crypto.MD5(hashString).toString()
+
+
+
+
+
 console.log('--------------------------------------------------------------------------------------')
 console.log(md5Hash)
 
